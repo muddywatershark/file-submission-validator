@@ -6,15 +6,15 @@ Signs (MD5) and checks for duplicates in submitted files writing information int
 
 #### UI Messages
 
-In order to use different user interface messages please edit (before build) `ui-msg.yaml` and run `./yaml2shell ./ui-msg.yaml` this will re-generate `us-msg.sh` (used later for `build` process).
+In order to use different user interface messages please edit (before build) `ui-msg.yaml` and run `./yaml2bash.sh ./ui-msg.yaml` this will re-generate `us-msg.sh` (used later for `build` process).
 
-#### Building complete script
+#### How to build a complete script
 
-Run `./build-fsvl`
+Run `./build-fsvl.sh`
 
-#### Installing script
+#### How to install the script
 
-Run `./install-fsvl`
+Run `./install-fsvl.sh`
 
 #### Testing installation
 
